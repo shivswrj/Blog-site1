@@ -1,0 +1,61 @@
+/* styles/BlogList.module.css */
+
+.blogList {
+  list-style: none;
+  padding: 0;
+}
+
+.blogItem {
+  margin: 20px 0;
+  padding: 20px;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: box-shadow 0.2s ease;
+}
+
+.blogItem:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.blogItem a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.blogItem h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.blogItem p {
+  margin: 5px 0;
+  color: #666;
+}
+
+.blogItem small {
+  display: block;
+  margin-top: 10px;
+  color: #999;
+}
+
+/* Search bar styles */
+.searchBar {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.searchInput {
+  width: 100%;
+  max-width: 600px;
+  padding: 10px;
+  border: 1px solid #eaeaea;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: box-shadow 0.2s ease;
+}
+
+.searchInput:focus {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  outline: none;
+}
